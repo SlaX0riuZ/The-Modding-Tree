@@ -21,16 +21,11 @@ addLayer("p", {
         return new Decimal(1)
     },
     row: 0, // Row the layer is in on the tree (0 is the first row)
-    upgrades: {
-        11: {
-            title: "Dimensional Anylysis",
-            description: "Gain 1.75x more cubes per second!",
-            cost: new Decimal(1),
-        }
-    },
     hotkeys: [
         {key: "p", description: "P: Reset for prestige cubes", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
+    upgrades: {
 
+    },
     layerShown(){return true},
 })
