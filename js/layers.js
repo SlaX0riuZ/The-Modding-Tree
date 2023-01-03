@@ -24,8 +24,8 @@ addLayer("p", {
     hotkeys: [
         {key: "p", description: "P: Reset for prestige cubes", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
+    layerShown(){return true},
     upgrades: {
 
     },
-    layerShown(){return true},
 })
