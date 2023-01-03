@@ -29,7 +29,7 @@ addLayer("p", {
         11: {
             title: "Cube Anylasis",
             description: "You generate 2x more cubes.",
-            cost: new Decimal(1),
+            cost: new Decimal(2),
         },
     },
 })
